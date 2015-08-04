@@ -1,12 +1,12 @@
-package LACleanArchitecture;
+package io.pivotal.whiteboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LaacApplication {
+public class CleanWhiteboardApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LaacApplication.class, args);
+        SpringApplication.run(CleanWhiteboardApplication.class, args);
     }
 }
