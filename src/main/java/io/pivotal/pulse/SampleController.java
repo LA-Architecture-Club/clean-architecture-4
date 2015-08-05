@@ -1,4 +1,4 @@
-package io.pivotal.whiteboard;
+package io.pivotal.pulse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

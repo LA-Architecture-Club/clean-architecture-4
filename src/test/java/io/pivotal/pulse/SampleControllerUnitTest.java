@@ -1,4 +1,4 @@
-package io.pivotal.whiteboard;
+package io.pivotal.pulse;
 
 import org.junit.Before;
 import org.junit.Test;

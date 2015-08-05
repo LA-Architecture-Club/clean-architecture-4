@@ -1,4 +1,4 @@
-package io.pivotal.whiteboard;
+package io.pivotal.pulse;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -31,7 +31,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * http://hamcrest.org/JavaHamcrest/javadoc/
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = CleanWhiteboardApplication.class)
+@SpringApplicationConfiguration(classes = CleanPulseApplication.class)
 @WebAppConfiguration
 public class SampleIntegrationTest {
     @Autowired

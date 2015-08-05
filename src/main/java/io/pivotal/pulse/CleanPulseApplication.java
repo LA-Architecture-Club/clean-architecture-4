@@ -1,12 +1,12 @@
-package io.pivotal.whiteboard;
+package io.pivotal.pulse;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CleanWhiteboardApplication {
+public class CleanPulseApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CleanWhiteboardApplication.class, args);
+        SpringApplication.run(CleanPulseApplication.class, args);
     }
 }
