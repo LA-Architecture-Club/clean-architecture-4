@@ -1,0 +1,42 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Comment
+2001794,tiles,tiles,,,,epic,,,"Aug 4, 2015",,,,,https://www.pivotaltracker.com/epic/show/2001794,,
+2001792,configuration,configuration,,,,epic,,,"Aug 4, 2015",,,,,https://www.pivotaltracker.com/epic/show/2001792,,
+100523056,developer can create a project,configuration,1,"Aug 3, 2015","Aug 9, 2015",feature,,unstarted,"Aug 4, 2015",,,Michael McCormick,"by navigating to /projects/new
+
+project needs
+ - name
+ - 4 character display code
+
+on successful creation you can see the project appear on /projects",https://www.pivotaltracker.com/story/show/100523056,
+100523638,developer can see the projects list,configuration,1,"Aug 3, 2015","Aug 9, 2015",feature,,unstarted,"Aug 4, 2015",,,Michael McCormick,"by navigating to /projects
+
+list displays
+
+```
+| Code | Name                 |
+| LAAC | LA Architecture Club |
+```",https://www.pivotaltracker.com/story/show/100523638,
+100523750,developer can add a project from the list page,configuration,1,"Aug 3, 2015","Aug 9, 2015",feature,,unstarted,"Aug 4, 2015",,,Michael McCormick,by navigating to /projects and clicking on **Add Project +** the developer is taken to the /projects/new page,https://www.pivotaltracker.com/story/show/100523750,
+100534810,team can see a project tile,tiles,1,"Aug 3, 2015","Aug 9, 2015",feature,,unstarted,"Aug 4, 2015",,,Michael McCormick,"by navigating to /tiles the team can see a tile for each project in the system
+
+tile displays
+ - 4 character display code
+
+main background is black. tile background is grey. each tile should be a bootstrap .col-md-4 width",https://www.pivotaltracker.com/story/show/100534810,
+100556038,developer can add a Travis CI project,configuration,1,"Aug 3, 2015","Aug 9, 2015",feature,,unstarted,"Aug 4, 2015",,,Michael McCormick,"while editing the project, the developer can specify 
+ - github account name
+ - github repository name
+
+for OSS projects from which build information will be published.
+
+e.g **LA-Architecture-Club** / **clean-architecture-1**
+",https://www.pivotaltracker.com/story/show/100556038,
+100618576,team can see the status of the most recent build on refresh,tiles,1,"Aug 3, 2015","Aug 9, 2015",feature,,unstarted,"Aug 4, 2015",,,Michael McCormick,"status should reflect the most recent Travis build status by making the tile background
+ - **failure** red
+ - **successful** green
+
+Travis API
+ - [making requests](http://docs.travis-ci.com/api/#making-requests)
+ - [Travis Builds](http://docs.travis-ci.com/api/#builds)",https://www.pivotaltracker.com/story/show/100618576,
+100618938,team can see the status of the most recent build w/o refresh,tiles,1,"Aug 3, 2015","Aug 9, 2015",feature,,unstarted,"Aug 4, 2015",,,Michael McCormick,tile should automatically update status within a reasonable delta of Travis API update,https://www.pivotaltracker.com/story/show/100618938,,"For the purpose of exploring Clean architecture, consider polling the Travis API rather than using a webhook. Also consider implementing browser updates with [Server Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) in [Spring 4.2](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) (Michael McCormick - Aug 4, 2015)"
+100619910,team can see status of a Jenkins project,tiles,1,"Aug 3, 2015","Aug 9, 2015",feature,,unstarted,"Aug 4, 2015",,,Michael McCormick,as updated by the [Jenkins notification plugin](https://wiki.jenkins-ci.org/display/JENKINS/Notification+Plugin),https://www.pivotaltracker.com/story/show/100619910,
