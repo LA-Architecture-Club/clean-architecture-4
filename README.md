@@ -1,15 +1,25 @@
 # The Clean Architecture
 
-## Setup
+## Getting Started
  1. Read [the Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
  2. Import into [PivotalTracker](https://pivotaltracker.com) l_a__architecture_club___ci_template_20150805_0622.csv
 
-# References
+## Setup
+
+### IntelliJ
+
+In IntelliJ, open the base directory — `clean-architecture-x` (not the build.gradle file).
+
+Do this:
+
+![Do this](https://raw.githubusercontent.com/exercism/docs/master/app/img/setup/java/mac-osx--idea-ce-gradle-import-dialog.png)
+
+## References
 
 * Spring Framework Reference Documentation: http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/htmlsingle
 * Spring Boot Reference Documentation: http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle
 
-## Example Code
+### Example Code
 
 * Spring MVC Examples: https://github.com/spring-projects/spring-mvc-showcase
 * Thymeleaf+Spring Example: https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-web-ui
