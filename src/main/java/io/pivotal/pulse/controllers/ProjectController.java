@@ -1,5 +1,6 @@
 package io.pivotal.pulse.controllers;
 
+import io.pivotal.pulse.domain.Project;
 import io.pivotal.pulse.dto.ProjectDTO;
 import io.pivotal.pulse.services.ProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ public class ProjectController {
 
     @RequestMapping("/projects/new")
     public void create(@RequestBody ProjectDTO projectDTO) {
-        projectService.createProject(null);
+        Project project = new Project();
+        project.setName(projectDTO.getName());
+        project.setProjectCode(projectDTO.getProjectCode());
+        projectService.createProject(project);
     }
 }
