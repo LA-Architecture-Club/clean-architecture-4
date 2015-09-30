@@ -1,5 +1,8 @@
 package io.pivotal.pulse.domain;
 
+import javax.persistence.Entity;
+
+@Entity(name="projects")
 public class Project {
     private String name;
     private String projectCode;

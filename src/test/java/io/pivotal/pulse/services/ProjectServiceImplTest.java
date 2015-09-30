@@ -10,7 +10,7 @@ import static org.mockito.Mockito.verify;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ProjectServiceImplTest extends TestCase {
+public class ProjectServiceImplTest {
 
     private ProjectRepository projectRepository = mock(ProjectRepository.class);
     private ProjectServiceImpl subject;
@@ -22,12 +22,10 @@ public class ProjectServiceImplTest extends TestCase {
 
 
     @Test
-    public void createProject_validProjectObject_createsProject(){
-
+    public void createProject_whenGivenValidProjectObject_createsProject() {
         Project project = new Project();
         subject.createProject(project);
-        verify(projectRepository, times(1)).save(project);
-
+        verify(projectRepository).save(project);
     }
 
 }
